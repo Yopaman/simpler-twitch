@@ -8,6 +8,7 @@ on the `catgirl` irc client.
 
 - curl
 - netcat
+- rofi
 - catgirl
 - mpv 
 - streamlink 
