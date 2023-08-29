@@ -30,7 +30,7 @@ To watch a stream, use
 ### Account mode
 
 - Create an application on [twitch developper console](https://dev.twitch.tv/console/apps). Note your client id.
-- Run `setup-account.sh` and follow the setup. It will use your client id to get a token and save it.
+- Run `setup-account.sh` and follow the setup. It will use your client id to get a token and save it. (the method used to get the token is very hacky and may not work)
 
 To watch a stream, use
 
