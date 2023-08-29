@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: netcat!
+
+Now close this page !
+
+<script>
+let hash = window.location.hash.substr(1);
+
+let result = hash.split('=')[1].split('&')[0]
+fetch("http://localhost:4000", {method: "POST", body: result})
+</script>
